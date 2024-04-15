@@ -5,15 +5,8 @@ app = Flask(__name__)
 
 # Liste des clés OpenAI
 openai_keys = [
-    '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',
-    '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',
-    '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',
-    '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',
-    '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',
-    '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',
-    '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',
-    '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',
-    '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'
+    '',
+    ''
 ]
 
 # Configuration de l'API OpenAI avec la première clé
