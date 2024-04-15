@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Code Generator by TRHACKNON</title>
     <style>
         /* Votre style actuel */
@@ -91,7 +92,35 @@
             color: #f0f; /* magenta */
           }
         }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .rotate-animation {
+            animation: rotate 2s linear infinite;
+        }
+        @keyframes flicker {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .flicker-animation {
+            animation: flicker 1s ease-in-out infinite;
+        }
         </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
     <body>
         <center><button class="button" onclick="(function() {
@@ -141,5 +170,6 @@
 
         <input type="submit" value="Generate Code">
     </form>
-</body>
+    <img src="https://trknaitools.replit.app/anar.svg" alt="Logo Trhacknon" class="flicker-animation" style="width: 130px; height: auto;">
+    </body>
 </html>
