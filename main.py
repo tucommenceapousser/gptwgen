@@ -7,7 +7,34 @@ app = Flask(__name__)
 openai_keys = [
     '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',
     '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',
-    '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'
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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',
+    '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'
 ]
 
 # Configuration de l'API OpenAI avec la première clé
