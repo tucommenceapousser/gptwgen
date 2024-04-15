@@ -1,7 +1,7 @@
 import openai
 
 # Configuration de l'API OpenAI
-openai.api_key = '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'
+openai.api_key = ''
 
 # Fonction pour générer des mots de passe cohérents avec des mots-clés spécifiques
 def generate_passwords_with_keywords(keywords, num_passwords):

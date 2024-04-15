@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import openai
 
 # Configuration de l'API OpenAI
-openai.api_key = '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'
+openai.api_key = ''
 
 # Fonction pour crawler une page web et extraire les informations pertinentes
 def crawl_page(url):
